@@ -45,10 +45,12 @@ body {
   letter-spacing: 0.923077px;
   text-transform: uppercase;
   color: #83888F;
+  transition: 1s;
 }
 
 .navbar__link:hover {
   color: #000;
+  transition: 1s;
 }
 
 .hero {
@@ -88,6 +90,12 @@ body {
   border-radius: 10px;
   padding: 104px 150px 109px 85px;
   margin-bottom: 100px;
+  transition: 2s;
+}
+
+.wrapper:hover {
+  background: #0e8784;
+  transition: 2s;
 }
 
 .wrapper-block {
@@ -176,6 +184,11 @@ span {
   margin-left: 10px;
 }
 
+.page-box__span2:hover {
+  color: #83888f;
+  transition: 1s;
+}
+
 .page-box__hr {
   width: 255px;
   height: 1px;
@@ -193,6 +206,7 @@ span {
   font-size: 24px;
   line-height: 32px;
   color: #333d4b;
+  transition: 1s;
 }
 
 .box-title {
@@ -227,6 +241,12 @@ span {
   background: #f4f1eb;
   border-radius: 8px;
   padding: 32px 0px 0px 28px;
+  transition: 1s;
+}
+
+.wrap-box:hover {
+  background-color: lightblue;
+  transition: 1s;
 }
 
 .wrap-box1 {
@@ -235,6 +255,12 @@ span {
   background: #0e8784;
   border-radius: 8px;
   padding: 32px 0px 0px 28px;
+  transition: 1s;
+}
+
+.wrap-box1:hover {
+  background-color: #2c343e;
+  transition: 2s;
 }
 
 .wrap-box__title {
@@ -313,6 +339,12 @@ span {
   height: 208px;
   background: #2c343e;
   padding: 31px 64px 27px 64px;
+  transition: 2s;
+}
+
+.gray-content:hover {
+  background-color: #0e8784;
+  transition: 2s;
 }
 
 .gray-content__text {
@@ -339,10 +371,6 @@ span {
   margin-top: 8px;
 }
 
-b {
-  color: #0e8784;
-}
-
 .ray-content__btn {
   padding: 15px 35px;
   background: #0e8784;
@@ -357,11 +385,23 @@ b {
   margin-top: 40px;
   margin-left: 535px;
   margin-bottom: 168px;
+  transition: 2s;
+}
+
+.ray-content__btn:hover {
+  transition: 2s;
+  background-color: #2c343e;
 }
 
 .site-footer {
   padding: 47px 85px;
   background-color: #2c343e;
+  transition: 2s;
+}
+
+.site-footer:hover {
+  background-color: lightsteelblue;
+  transition: 2s;
 }
 
 .site-footer__container {
@@ -388,6 +428,12 @@ b {
   letter-spacing: 0.923077px;
   text-transform: uppercase;
   color: #83888f;
+  transition: 1s;
+}
+
+.list__link1:hover {
+  color: #2c343e;
+  transition: 1s;
 }
 
 .site-footer__img--box {

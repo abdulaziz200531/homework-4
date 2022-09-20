@@ -26,6 +26,10 @@ span {
   color: #83888f;
   margin-left: 10px;
 }
+.page-box__span2:hover{
+    color: #83888f;
+    transition: 1s;
+}
 .page-box__hr {
   width: 255px;
   height: 1px;
@@ -42,6 +46,7 @@ span {
   font-size: 24px;
   line-height: 32px;
   color: #333d4b;
+  transition: 1s;
 }
 .box-title {
   display: flex;
@@ -71,6 +76,11 @@ span {
   background: #f4f1eb;
   border-radius: 8px;
   padding: 32px 0px 0px 28px;
+  transition: 1s;
+}
+.wrap-box:hover{
+background-color: lightblue;
+transition: 1s;
 }
 .wrap-box1 {
   width: 228px;
@@ -78,6 +88,11 @@ span {
   background: #0e8784;
   border-radius: 8px;
   padding: 32px 0px 0px 28px;
+  transition: 1s;
+}
+.wrap-box1:hover{
+background-color: #2c343e;
+transition: 2s;
 }
 .wrap-box__title {
   font-family: "Fraunces 9pt";
@@ -146,6 +161,11 @@ span {
   height: 208px;
   background: #2c343e;
   padding: 31px 64px 27px 64px;
+  transition: 2s;
+}
+.gray-content:hover{
+background-color: #0e8784;
+transition: 2s;
 }
 .gray-content__text {
   font-family: "Barlow";
@@ -157,6 +177,7 @@ span {
   color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.5;
+
 }
 .gray-content__title {
   width: 602px;
@@ -168,9 +189,6 @@ span {
   line-height: 40px;
   color: #ffffff;
   margin-top: 8px;
-}
-b {
-  color: #0e8784;
 }
 .ray-content__btn {
   padding: 15px 35px;
@@ -186,4 +204,10 @@ b {
   margin-top: 40px;
   margin-left: 535px;
   margin-bottom: 168px;
+  transition: 2s;
 }
+.ray-content__btn:hover{
+    transition: 2s;
+background-color: #2c343e;
+}
+
